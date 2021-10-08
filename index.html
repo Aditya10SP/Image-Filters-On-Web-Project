@@ -1,0 +1,24 @@
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"
+>
+</script> 
+<h1>Image Filters</h1>
+<canvas id="can">
+</canvas>
+<p>
+ Filename: 
+<input type="file" multiple="false" id="file" accept="image/*"
+       onchange="loadImage()"/>
+ Choose Filters:
+<input type="button" id="blackwhite" value="Gray Scale" onclick="doGray()"/>
+<input type="button" id="redfilter" value="Red Filter"
+       onclick="redFilter()"/>
+<input type="button" id="framefilter" value="Grid Lines"
+       onclick="gridlines()"/>
+<input type="button" id="rainbow" value="Rainbow"
+       onclick="rainbow()"/>
+</p>
+<p>  
+<input type="button" id="reset" value="Reset"
+       onclick="reset()"/>
+</p>
+  
